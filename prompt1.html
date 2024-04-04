@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button{
+            font-size: 22px;
+            background-color: green;
+            color: black;
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using prompt</title>
+</head>
+<body>
+    <button onclick="clickHere()">Display your prompt</button>
+
+
+    <script>
+        function clickHere(){
+        let favoriteCourse = prompt("What is your favorite tech course?");
+if (favoriteCourse !== null && favoriteCourse.length !== 0) {
+    localStorage.setItem("Favourite course", favoriteCourse);
+  // Alert  the user's input
+  alert("Your favorite course is: " + favoriteCourse);
+}
+else{
+    alert("You did not input your favourite course")
+}
+        }
+       // let click1 = click();
+   // console.log(click1);
+    </script>
+</body>
+</html>

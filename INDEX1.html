@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .btn{
+    font-size: 16px;
+    border-radius: 25px;
+    background: #73AD21;
+    width: 300px;
+    height: 40px; 
+}
+.form{
+    font-size: 20px;
+    align-items: center;
+   
+}
+.div{
+    width: 320px;
+    height:320px;
+    margin: 22px 0;
+    border: 12px;
+    padding: 10px;
+    align-items: center;
+    border: 5px solid grey;
+    display: block;
+}
+input{
+    width: 100%;
+}
+label{
+    position: relative;
+}
+#gender{
+    width: 100%;
+}
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memoi Assignment 2</title>
+</head>
+<body>
+    <div>
+    <center class="div">
+    <form action="" id="form" class="form">
+        <label for="fullname">Full Name</label>
+        <input type="text" name="Full Name" id="" placeholder="Your full name..">
+
+        <label for="">Username</label>
+        <input type="text" name="username" id="" placeholder="Username..">
+
+        <label for="">Email</label>
+        <input type="email" name="Email" id="" placeholder="Your email address...">
+
+        <label for="">Password</label>
+        <input type="password" name="password" id="" placeholder="Password">
+
+        <label for="">Gender</label>
+    
+       <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="">Other</option>
+       </select>
+       
+
+        <label for="">Date Of Birth</label>
+        <input type="date" name="date" id="date" required>
+
+        
+    </form>
+   
+
+    <button type="submit" class="btn">Click Here To Submit</button>
+    </div>
+    </center>
+</body>
+</html>
